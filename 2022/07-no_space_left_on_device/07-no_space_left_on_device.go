@@ -125,6 +125,6 @@ func partTwo(t fileTree) {
 func main() {
   fTree := parseInput();
   // fmt.Println(fTree.root)
-  // partOne(fTree)
-  partTwo(fTree)
+  partOne(fTree)
+  // partTwo(fTree)
 }
